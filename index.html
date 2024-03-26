@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fattah Chaerul Majid</title>
+    <link href="src/output.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" 
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" 
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" 
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+<!-- Header Start -->
+<header class="bg-transparent absolute top-0 left-0 w-full flex 
+items-center z-10">
+<div class="container">
+    <div class="flex items-center justify-between relative">
+        <div class="px-4">
+            <a href="#home" class="font-bold text-xl text-blue-800 block py-6" >FCM</a>
+        </div>
+        <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button"
+            class="block absolute right-4 lg:hidden">
+                <span class="hamburger-line transition duration-300
+                ease-in-out origin-top-left"></span>
+                <span class="hamburger-line transition duration-300
+                ease-in-out"></span>
+                <span class="hamburger-line transition duration-300
+                ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg
+            rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent
+            lg:max-w-full lg:shadow-none lg:rounded-none">
+                <ul class="block lg:flex">
+                    <li class="group">
+                        <a href="#hero" class="text-base text-dark
+                        py-2 mx-8 flex group-hover:text-blue-800">Home</a>
+                    </li>
+                    <li class="group">
+                        <a href="#about" class="text-base text-dark
+                        py-2 mx-8 flex group-hover:text-blue-800">About</a>
+                    </li>
+                    <li class="group">
+                        <a href="#porto" class="text-base text-dark
+                        py-2 mx-8 flex group-hover:text-blue-800">Project</a>
+                    </li>
+                    <li class="group">
+                        <a href="#activity" class="text-base text-dark
+                        py-2 mx-8 flex group-hover:text-blue-800">Activity</a>
+                    </li>
+                    <li class="group">
+                        <a href="#contact" class="text-base text-dark
+                        py-2 mx-8 flex group-hover:text-blue-800">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</header>
+<!-- Header End -->
+
+<!-- Hero Section Start -->
+<section id="hero" class="pt-20">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div id="texthero" class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base font-semibold text-slate-900 md:text-xl ">Hi everyone! I'm 
+                    <span class="block font-bold text-blue-800 text-4xl mt-1 lg:text-5xl">Fattah Chaerul Majid</span></h1>
+                <p class="font-small text-slate-900 text-lg mb-5">Fresh Graduate from STMIK Widya Pratama Pekalongan.
+                    Majoring in Informatic Engineering.</p>
+                <h2 class="font-bold mb-14 lg:text-3xl">Nice to meet you!</h2>
+                <a href="https://wa.me/+6289681928200" class="my-8 text-xl font-bold text-white
+                bg-primary py-3 px-8 rounded-full hover:shadow-lg
+                hover:opacity-60 transition duration-300 ease-in-out"> Contact Me </a>
+            </div>
+            <div id="profil" class="w-full self-end px-4 lg:w-1/2">
+                <div class="relative mt-10 lg:mt-9 lg:right-0">
+                    <img src="img/profil.png" alt="fattah"
+                    class="max-w-full mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+
+<!-- About Section Start -->
+<section id="about" class="pt-36 pb-16">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-10 lg:w-1/2">
+                <h1 class="font-bold text-4xl text-slate-900 mb-5">About 
+                    <span class="text-blue-800"> Me </span></h1>
+                <h2 class="font-bold mb-5 lg:text-3xl">24 years old from Pekalongan City,
+                    Central Java, Indonesia.
+                </h2>
+                <p class="font-small text-slate-900 text-lg mb-5">I am a person who is enthusiastic in the world of digital
+                    and information technology. Several times working on projects
+                    such as Web Programming, Android Developing, UI/UX Design,
+                    Graphic Design, and Editing. Currently i am always improving
+                    my skills in this field becaise its also my passion.
+                </p>
+            </div>
+
+            <div class="w-full px-4 mb-10 lg:w-1/2">
+                <h1 class="font-bold text-4xl text-blue-800 mb-5">Let's Connect</h1>
+                <p class="font-small text-slate-900 text-lg mb-5"> Let's be friend and build good relationships. It is also very
+                    honorable to create a collaboration. </p>
+
+                <div class="flex item-center">    
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/fattah-chaerul-majid-133a5418b" target="_blank" class="mr-3"> <img width='30' src="img/linkedin.png" alt="linkedin"></a>
+                <!-- Linkedin -->
+
+                <!-- GitHub -->
+                <a href="https://github.com/0011fattahcm" target="_blank" class="mr-3"> <img width='30' src="img/github.png" alt="github"></a>
+                <!-- GitHub -->
+
+                <!-- Email -->
+                <a href="mailto:fattahmajid25@gmail.com" target="_blank" class="mr-3"> <img width='30' src="img/email.png" alt="email"></a>
+                <!-- Email -->
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+
+<!-- Skill Section Start -->
+<section id="skils" class="pt-36 pb-16 bg-slate-200">
+    <div class="container">
+        <h1 class="font-bold text-4xl text-blue-800 mb-5">Skills</h1>
+        <p class="font-small text-slate-900 text-lg mb-5">Below are some skills that i have
+            learned and worked so far.
+        </p>
+        <div class="flex flex-wrap text-center">
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">Web Development</h1>
+                        <img width="100" src="img/web.png" alt="webdev" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Create a responsive and attractive website using HTML and CSS</p>
+                    </div>
+                </div>
+                
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">UI/UX Design</h1>
+                        <img width="100" src="img/uiux.png" alt="uiux" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Create a website or mobile application user interface design using Figma</p>
+                    </div>
+                </div>
+
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">Graphic Design</h1>
+                        <img width="100" src="img/design.png" alt="design" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Create attractive graphic design using Adobe Illustrator and Photoshop</p>
+                    </div>
+                </div>
+
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">Database Management</h1>
+                        <img width="100" src="img/mysql.png" alt="database" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Manage database by adjustment needs using Mysql engine software </p>
+                    </div>
+                </div>
+
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">Augmented Reality</h1>
+                        <img width="100" src="img/ar.png" alt="ar" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Create a 3D/2D augmented reality application using Unity3D </p>
+                    </div>
+                </div>
+
+                <div class="px-4 w-full sm:w-1/2 lg:w-1/3"> 
+                    <div class="bg-white w-full mb-10 shadow-lg p-5">
+                        <h1 class="font-bold text-blue-800">Video Editing</h1>
+                        <img width="100" src="img/edit.png" alt="edit" class="mx-auto my-8">
+                        <p class="font-small text-slate-900 text-lg mb-5"> Create or edit interesting video content using Adobe Premiere </p>
+                    </div>
+                </div>
+                <div class="max-w-xl mx-auto text-center mt-16">
+                    <h1 class="font-bold text-2xl text-blue-800 mb-5">Software and Programming Language</h1>
+                </div>
+                <div class="w-full mx-auto mb-5 my-8 lg:w-full sm:w-3/6">
+                    <div class="flex item-center bg-white px-4 py-4"> 
+                        <img src="img/ai.png" alt="ig1" width='50' class="mx-auto p-1">
+                        <img src="img/photoshop.png" alt="ig2" width='50' class="mx-auto p-1">
+                        <img src="img/premiere.png" alt="ig3" width='50' class="mx-auto p-1">
+                        <img src="img/corel.png" alt="ig4" width='50' class="mx-auto p-1">
+                        <img src="img/figma.png" alt="ig4" width='50' class="mx-auto p-1">
+                        <img src="img/sketchup.png" alt="ig5" width='50' class="mx-auto p-1">
+                        <img src="img/blender.png" alt="t1" width='50' class="mx-auto p-1">
+                        <img src="img/unity.png" alt="t2" width='50' class="mx-auto p-1">
+                        <img src="img/html.png" alt="t3" width='50' class="mx-auto p-1">
+                        <img src="img/css.png" alt="t4" width='50' class="mx-auto p-1">
+                        <img src="img/tailwind.png" alt="p1" width='50' class="mx-auto p-1">
+                        <img src="img/javascript.png" alt="p2" width='50' class="mx-auto p-1">
+                        <img src="img/php.png" alt="p3" width='50' class="mx-auto p-1">
+                        <img src="img/csharp.png" alt="p3" width='50' class="mx-auto p-1">
+                        <img src="img/sql.png" alt="p3" width='50' class="mx-auto p-1">
+                        <img src="img/java.png" alt="p3" width='50' class="mx-auto p-1">
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- Skill Section End -->
+
+<!-- Portofolio Section Start -->
+<section id="porto" class="pt-36 pb-16 bg-white">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h1 class="font-bold text-4xl text-blue-800 mb-5">Recent 
+                    <span class="text-slate-900"> Project </span></h1>
+                <p class="font-small text-slate-900 text-lg">
+                    The following are the latest projects I have worked on.</p>
+            </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center">
+            <div class="mb-12 p-4 px-4 lg:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="img/aes.jpg" alt="aes" width="w-full" class="mb-3">
+                </div>
+                    <h1 class="text-base font-semibold text-slate-900 mt-5 mb-3">Android Application</h1>
+                    <h2 class="font-bold text-xl text-blue-800">Auto Engine Simulation</h2>
+                    <p class="font-small text-slate-900 text-lg mb-5">is an Android-based augmented reality application that contains 
+                        3D animation and material about the working principles of petrol 
+                        and diesel engines. 3D objects created in SketchUp 3D and animated 
+                        in Blender. All assets build in Unity3D to final application.</p>
+                    <a href="https://drive.google.com/drive/folders/1Vm2fdlE2inDZWh2qwruJ3UlLV5LOVNru?usp=sharing" class="my-8 text-md font-small text-primary
+                    hover:text-slate-800 transition duration-300 ease-in-out"> View Project </a>
+            </div>
+
+            <div class="mb-12 p-4 px-4 lg:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="img/warai.jpg" alt="warai" width="w-full" class="mb-3">
+                </div>
+                    <h1 class="text-base font-semibold text-slate-900 mt-5 mb-3">Web Development</h1>
+                    <h2 class="font-bold text-xl text-blue-800">Warai Nihongo </h2>
+                    <p class="font-small text-slate-900 text-lg mb-5">is a website belonging to a Japanese cultural and job training 
+                        institution located in Pekalongan. This website functions 
+                        as an agency identity that has general information that can 
+                        be seen by clients, prospective students, and everyone. </p>
+                        <a href="https://w-nihongo.com/" class="my-8 text-md font-small text-primary
+                        hover:text-slate-800 transition duration-300 ease-in-out"> View Project </a>    
+            </div>
+
+            <div class="mb-12 p-4 px-4 lg:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="img/psu.jpg" alt="psu" width="w-full" class="mb-3">
+                </div>
+                    <h1 class="text-base font-semibold text-slate-900 mt-5 mb-3">UI/UX Design</h1>
+                    <h2 class="font-bold text-xl text-blue-800">PSU Website</h2>
+                    <p class="font-small text-slate-900 text-lg mb-5">is an online laptop service website produced from the 1000 
+                        digital startUp program. I have 5 team members in this 
+                        project, in my team I have the role of being a Hipster 
+                        and being responsible for the visual field. I use Figma a lot in creating user interfaces</p>
+                        <a href="https://psustartup.netlify.app/" class="my-8 text-md font-small text-primary
+                        hover:text-slate-800 transition duration-300 ease-in-out"> View Project </a>
+            </div>
+
+            <div class="mb-12 p-4 px-4 lg:w-1/2">
+                <div class="rounded-md shadow-md overflow-hidden">
+                    <img src="img/genkai.jpg" alt="genkai" width="w-full" class="mb-3">
+                </div>
+                    <h1 class="text-base font-semibold text-slate-900 mt-5 mb-3">Design and Branding</h1>
+                    <h2 class="font-bold text-xl text-blue-800">Genkai Cloth</h2>
+                    <p class="font-small text-slate-900 text-lg mb-5">is a clothing brand with a street style theme located in the 
+                        cities of Pekalongan and Batang. Here my duties are as
+                         a t-shirt designer, content creator and design, along 
+                         with production management. I work a lot using Adobe Illustrator, 
+                         Adobe Photoshop, and Adobe Premiere or Capcut PC when needed.</p>
+                         <a href="https://www.instagram.com/genkai.cloth" class="my-8 text-md font-small text-primary
+                         hover:text-slate-800 transition duration-300 ease-in-out"> View Project </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portofolio Section End -->
+
+<!-- Gallery Section Start -->
+<section id="slider" class="pt-36 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4 mb-10 lg:w-1/2">
+                <h1 class="font-bold text-4xl text-slate-900 mb-5">Design 
+                    <span class="text-blue-800"> Gallery </span></h1>
+                <p class="font-small text-slate-900 text-lg">
+                    The following are some examples of graphic designs that 
+                    I have made, starting from Instagram feed designs, t-shirt designs, and posters.</p>
+            </div>
+            <div class="max-w-xl mx-auto text-center mt-16 mb-2">
+                <h1 class="font-bold text-2xl text-blue-800 mb-5">Instagram Feeds</h1>
+            </div>
+            <div class="responsive">
+                <img class="p-4" src="img/igcloth.png" alt="">
+                <img class="p-4" src="img/igcloth2.png" alt="">
+                <img class="p-4" src="img/igjlpt.png" alt="">
+                <img class="p-4" src="img/igschooter.png" alt="">
+                <img class="p-4" src="img/igviscount.png" alt="">
+            </div>
+            <div class="max-w-xl mx-auto text-center mt-16 mb-2">
+                <h1 class="font-bold text-2xl text-blue-800 mb-5">Poster Design</h1>
+            </div>
+            <div class="responsive">
+                <img class="p-4" src="img/poster1.jpg" alt="">
+                <img class="p-4" src="img/poster2.jpg" alt="">
+                <img class="p-4" src="img/poster3.jpg" alt="">
+                <img class="p-4" src="img/poster4.jpg" alt="">
+                <img class="p-4" src="img/poster5.jpg" alt="">
+            </div>
+            <div class="max-w-xl mx-auto text-center mt-16 mb-2">
+                <h1 class="font-bold text-2xl text-blue-800 mb-5">Instastory Design</h1>
+            </div>
+            <div class="responsive">
+                <img class="p-4" src="img/story1.jpg" alt="">
+                <img class="p-4" src="img/story2.jpg" alt="">
+                <img class="p-4" src="img/story3.jpg" alt="">
+                <img class="p-4" src="img/story4.jpg" alt="">
+            </div>
+            <div class="max-w-xl mx-auto text-center mt-16 mb-2">
+                <h1 class="font-bold text-2xl text-blue-800 mb-5">T-Shirt Design</h1>
+            </div>
+            <div class="responsive">
+                <img class="p-4" src="img/tshirt1.jpg" alt="">
+                <img class="p-4" src="img/tshirt2.jpg" alt="">
+                <img class="p-4" src="img/tshirt3.jpg" alt="">
+                <img class="p-4" src="img/tshirt4.jpg" alt="">
+                <img class="p-4" src="img/tshirt5.jpg" alt="">
+                <img class="p-4" src="img/tshirt6.jpg" alt="">
+            </div>
+        </div>
+</section>
+<!-- Gallery Section End -->
+
+<!-- Activity Section Start -->
+<section id="activity" class="pt-36 pb-16  bg-slate-200">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h1 class="font-bold text-4xl text-blue-800 mb-5">Recent 
+                    <span class="text-slate-900"> Activity </span></h1>
+                <p class="font-small text-slate-900 text-lg mb-5">
+                    The following are the recent activity i did.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/sertif1.jpg" alt="sertif1" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">Software Engineering Course</h1>
+                    <p class="font-small text-slate-900 text-lg"> A program from Indonesia Cyber Education Institute and Course
+                        by Xuetang China. This program is learn about 
+                        Software Engineering.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/sertif2.jpg" alt="sertif2" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">Cyber Security Course</h1>
+                    <p class="font-small text-slate-900 text-lg"> A program from Indonesia Cyber Education Institute and Course
+                        by Telkom University. This program is learn about 
+                        Cyber Security.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/sertif4.jpg" alt="sertif4" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">Pertukaran Mahasiswa Merdeka 2</h1>
+                    <p class="font-small text-slate-900 text-lg"> A program from Kampus Merdeka. This is a national student
+                        exchange program. Halu Oleo University is where i studied and took part in a series of other activity.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/sertif3.jpg" alt="sertif3" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">1000 StartUp Digital</h1>
+                    <p class="font-small text-slate-900 text-lg"> A program from Indonesia Ministry of Communication
+                        and Informatics. This program is a bootcamp about how to build a StartUp. My role is a hipster.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Activity Section End -->
+
+<!-- Achievement Section Start -->
+<section id="achievement" class="pt-16 pb-16  bg-slate-200">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h1 class="font-bold text-4xl text-blue-800 mb-5"> 
+                     Achievement </h1>
+                <p class="font-small text-slate-900 text-lg mb-5">
+                    The following are the some achievement that i get.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 lg:w-1/3 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/juara1.jpg" alt="sertif1" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">1st Place</h1>
+                    <p class="font-small text-slate-900 text-lg"> On poster design competition Tirtanium 2022
+                        Sultan Ageng Tirtayasa University 
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/3 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/juara4.jpg" alt="sertif2" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">4th Place</h1>
+                    <p class="font-small text-slate-900 text-lg">On mini competition Frontend Series web developmet
+                        Google Developer Student Club Esa Unggul University
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="w-full px-4 lg:w-1/3 xl:w-1/3">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                <img src="img/juara3.jpg" alt="sertif4" class="w-full">
+                <div class="py-8 px-6">
+                    <h1 class="font-bold lg:text-3xl text-blue-800">3rd Place</h1>
+                    <p class="font-small text-slate-900 text-lg"> On poster design competition Face of Marcom
+                        2023 Sultan Ageng Tirtayasa University
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Achievement Section End -->
+
+<!-- Contact Section Start -->
+<section id="contact" class="pt-36 pb-16 bg-white">
+    <div class="container">
+        <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h1 class="font-bold text-4xl text-blue-800 mb-5">Contact
+                    <span class="text-slate-900"> Me </span></h1>
+                <p class="font-small text-slate-900 text-lg mb-5">
+                    Contact me directly via the email box below.</p>
+            </div>
+        </div>
+
+        <div class="m-7  lg:w-2/3 lg:mx-auto">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="00af8f0e-25d9-4abe-8500-acf149c9f69e" />
+                <input type="hidden" name="subject" value="New Submission from your Website" />
+                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+                <div class="mb-6">
+                    <label for="name" class="block mb-2 text-sm text-gray-900 ">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block mb-2 text-sm text-gray-900 ">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="you@mail.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-6">
+                    <label for="phone" class="text-sm text-gray-900 ">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="+62 888 1234-5678" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block mb-2 text-sm text-gray-900 ">Your Message</label>
+
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+                </div>
+                <div class="mb-6">
+                    <button type="submit" class="w-full px-3 py-4 text-white bg-blue-800 rounded-md focus:bg-indigo-600 focus:outline-none">
+                        Send Message
+                    </button>
+                </div>
+                <p class="text-base text-center text-gray-500" id="result"></p>
+            </form>
+        </div>
+    </div>
+
+</section>
+<!-- Contact Section End -->
+
+<!-- Footer Section Start -->
+<footer class="bg-dark pt-24 pb-12">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium
+            md:w-1/3">
+                <h1 class="font-bold text-4xl text-white mb-5">FCM</h1>
+                <h2 class="font-bold text-2xl mb-2">About Me</h2>
+                <p>Fresh Graduate from</p>
+                <p>STMIK Widya Pratama Pekalongan.</p>
+                <p>Majoring in Informatic Engineering.</p>
+            </div>
+
+            <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-bold text-2xl mb-2 text-slate-300">Menu</h3>
+            <ul class="text-slate-200">
+                <li>
+                    <a href="#hero" class="inline-block text-base text-
+                    hover:text-primary mb-3">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="inline-block text-base text-
+                    hover:text-primary mb-3">About</a>
+                </li>
+                <li>
+                    <a href="#porto" class="inline-block text-base text-
+                    hover:text-primary mb-3">Project</a>
+                </li>
+                <li>
+                    <a href="#activity" class="inline-block text-base text-
+                    hover:text-primary mb-3">Activity</a>
+                </li>
+                </ul>
+            </div>
+
+            <div class="w-full px-4 mb-12 text-slate-300 font-medium
+            md:w-1/3">
+                <h2 class="font-bold text-2xl mb-2">Contact Me</h2>
+                <p>fattahmajid25@gmail.com</p>
+                <p>Wonokerto, Pekalongan City</p>
+                <p>Central Java</p>
+            </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-700">
+            <div class="flex item-center justify-center mb-5">    
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/fattah-chaerul-majid-133a5418b" target="_blank" class="mr-3"> <img width='30' src="img/linkedin.png" alt="linkedin"></a>
+                <!-- Linkedin -->
+
+                <!-- GitHub -->
+                <a href="https://github.com/0011fattahcm" target="_blank" class="mr-3"> <img width='30' src="img/github.png" alt="github"></a>
+                <!-- GitHub -->
+
+                <!-- Email -->
+                <a href="mailto:fattahmajid25@gmail.com" target="_blank" class="mr-3"> <img width='30' src="img/email.png" alt="email"></a>
+                <!-- Email -->
+                </div>
+                <p class="font-medium text-small text-slate-500
+                text-center">Develop by Fattah Chaerul Majid, 2024</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Back to top Start -->
+<a href="#hero" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 
+items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse"
+id="to-top">
+    <span class="block h-5 w-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+</a>
+<!-- Back to top End -->
+
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>
